@@ -15,14 +15,12 @@ class test_add_contact(unittest.TestCase):
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
     
-    def test_test_add_contact(self):
+    def test_add_contact(self):
         success = True
         wd = self.wd
-        self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.create_contact(wd, Contact(firstname="gkgk", middlename="gkgkg", lastname="gkhgkg", nick="gkgkgk", title="gkgk", company="gkgkjgkgk", address="gkgkjgkgk", home_tel="777", mob_tel="888",
                             work_tel="999", fax="777", email="2532@AMAI.COM", email2="2515832@AMAI.COM", homepage="ppp.com",birthday="1989"))
-        self.return_to_home_page(wd)
         self.logout(wd)
 
 
@@ -83,9 +81,11 @@ class test_add_contact(unittest.TestCase):
         wd.find_element_by_name("byear").send_keys(contact.birthday)
         # submit contact
         wd.find_element_by_name("submit").click()
+        self.return_to_home_page(wd)
 
 
     def login(self, wd, username, password):
+        self.open_home_page(wd)
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
