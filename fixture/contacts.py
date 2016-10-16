@@ -80,3 +80,5 @@ class ContactsHelper:
         self.fill_form(contact)
         wd.find_element_by_xpath("//input[@value='Update']").click()
         self.app.return_to_home_page()
+
+
