@@ -7,10 +7,10 @@ from model.group import Group
 
 
 def test_add_group(app):
-    app.group.creat(Group(name="dfgdfg", header="dfgdfgd", footer="dfgdfgdfg"))
+    app.group.create(Group(name="dfgdfg", header="dfgdfgd", footer="dfgdfgdfg"))
 
 def test_add_empty_group(app):
-    app.group.creat(Group(name="", header="", footer=""))
+    app.group.create(Group(name="", header="", footer=""))
 
 
 
