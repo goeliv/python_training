@@ -1,7 +1,7 @@
 from model.contact import Contact
 from random import randrange
 
-def test_delete_contact_by_index(app):
+def test_delete_some_contact(app):
     if app.contacts.count() == 0:
         app.contacts.create(Contact(firstname="test", middlename="test", lastname="gkhgkg", nick="gkgkgk", title="gkgk", company="gkgkjgkgk", address="gkgkjgkgk", home_tel="777", mob_tel="888",
                                 work_tel="999", fax="777", email="2532@AMAI.COM", email2="2515832@AMAI.COM", homepage="ppp.com", birthday="1989"))

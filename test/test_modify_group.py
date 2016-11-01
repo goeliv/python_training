@@ -2,7 +2,7 @@ from model.group import Group
 from random import randrange
 
 
-def test_modify_first_group(app):
+def test_modify_some_group(app):
     if app.contacts.count() == 0:
         app.contacts.create(Contact(firstname="test", middlename="test", lastname="gkhgkg", nick="gkgkgk", title="gkgk", company="gkgkjgkgk", address="gkgkjgkgk", home_tel="777", mob_tel="888",
                                 work_tel="999", fax="777", email="2532@AMAI.COM", email2="2515832@AMAI.COM", homepage="ppp.com", birthday="1989"))
