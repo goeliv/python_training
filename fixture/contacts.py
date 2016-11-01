@@ -17,6 +17,7 @@ class ContactsHelper:
         # submit contact
         wd.find_element_by_name("submit").click()
         self.app.return_to_home_page()
+        self.rows_cache = None
 
     def fill_form(self, contact):
         wd = self.app.wd
@@ -74,6 +75,7 @@ class ContactsHelper:
         # submit deletion
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
+        self.rows_cache = None
 
     def modify(self, contact):
         wd = self.app.wd
@@ -83,22 +85,27 @@ class ContactsHelper:
         self.fill_form(contact)
         wd.find_element_by_xpath("//input[@value='Update']").click()
         self.app.return_to_home_page()
+        self.rows_cache = None
 
     def count(self):
         wd = self.app.wd
         self.app.open_home_page()
         return len(wd.find_elements_by_name("selected[]"))
 
+    rows_cache = None
+
+
     def get_contact_list(self):
-        wd = self.app.wd
-        self.app.open_home_page()
-        rows = []
-        for row in wd.find_elements_by_name("entry"):
-            cells = row.find_elements_by_tag_name("td")
-            firstname = cells[1].text
-            lastname = cells[2].text
-            id = cells[0].find_element_by_tag_name("input").get_attribute("value")
-            rows.append(Contact(firstname=firstname, lastname=lastname, id=id))
-        return rows
+        if self.rows_cache is None:
+            wd = self.app.wd
+            self.app.open_home_page()
+            self.rows_cache = []
+            for row in wd.find_elements_by_name("entry"):
+                cells = row.find_elements_by_tag_name("td")
+                firstname = cells[1].text
+                lastname = cells[2].text
+                id = cells[0].find_element_by_tag_name("input").get_attribute("value")
+                self.rows_cache.append(Contact(firstname=firstname, lastname=lastname, id=id))
+        return list(self.rows_cache)
 
 
