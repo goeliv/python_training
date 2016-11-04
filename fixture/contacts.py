@@ -44,16 +44,16 @@ class ContactsHelper:
         wd.find_element_by_name("address").send_keys(contact.address)
         wd.find_element_by_name("home").click()
         wd.find_element_by_name("home").clear()
-        wd.find_element_by_name("home").send_keys(contact.home_tel)
+        wd.find_element_by_name("home").send_keys(contact.homephone)
         wd.find_element_by_name("mobile").click()
         wd.find_element_by_name("mobile").clear()
-        wd.find_element_by_name("mobile").send_keys(contact.mob_tel)
+        wd.find_element_by_name("mobile").send_keys(contact.mobilephone)
         wd.find_element_by_name("work").click()
         wd.find_element_by_name("work").clear()
-        wd.find_element_by_name("work").send_keys(contact.work_tel)
+        wd.find_element_by_name("work").send_keys(contact.workphone)
         wd.find_element_by_name("fax").click()
         wd.find_element_by_name("fax").clear()
-        wd.find_element_by_name("fax").send_keys(contact.fax)
+        wd.find_element_by_name("fax").send_keys(contact.secondaryphone)
         wd.find_element_by_name("email").click()
         wd.find_element_by_name("email").clear()
         wd.find_element_by_name("email").send_keys(contact.email)
@@ -122,5 +122,19 @@ class ContactsHelper:
                 id = cells[0].find_element_by_tag_name("input").get_attribute("value")
                 self.rows_cache.append(Contact(firstname=firstname, lastname=lastname, id=id))
         return list(self.rows_cache)
+
+    def open_contact_to_edit_by_index (self, index):
+        wd = self.app.wd
+        self.app.open_home_page()
+        row = wd.find_elements_by_name("entry")[index]
+        cell = row.find_elements_by_tag_name("td")[7]
+        cell.find_elements_by_tag_name("a").click()
+
+    def open_contact_view_by_index (self, index):
+        wd = self.app.wd
+        self.app.open_home_page()
+        row = wd.find_elements_by_name("entry")[index]
+        cell = row.find_elements_by_tag_name("td")[6]
+        cell.find_elements_by_tag_name("a").click()
 
 
