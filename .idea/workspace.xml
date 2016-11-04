@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6814e93-d874-4fea-a5f8-0f9d42c6d162" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contacts.py" afterPath="$PROJECT_DIR$/fixture/contacts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/contact.py" afterPath="$PROJECT_DIR$/model/contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_contact.py" afterPath="$PROJECT_DIR$/test/test_add_contact.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +77,18 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
+            <state relative-caret-position="438">
+              <caret line="149" column="166" selection-start-line="149" selection-start-column="166" selection-end-line="149" selection-end-column="166" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_phones.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_phones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -158,6 +166,7 @@
         <option value="$PROJECT_DIR$/test/test_del_contact.py" />
         <option value="$PROJECT_DIR$/test/test_add_contact.py" />
         <option value="$PROJECT_DIR$/model/contact.py" />
+        <option value="$PROJECT_DIR$/test/test_phones.py" />
         <option value="$PROJECT_DIR$/fixture/contacts.py" />
       </list>
     </option>
@@ -573,8 +582,8 @@
     <history-entry file="py_test_in_test - 2016.11.04 at 16h 25m 34s.xml">
       <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_group_py - 2016.11.01 at 11h 44m 43s.xml">
-      <configuration name="py.test in test_del_group.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2016.11.04 at 16h 40m 21s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_del_group_py - 2016.11.01 at 11h 46m 48s.xml">
       <configuration name="py.test in test_del_group.py" configurationId="tests" />
@@ -599,7 +608,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21548998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -639,13 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -882,10 +884,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_phones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
+        <state relative-caret-position="438">
+          <caret line="149" column="166" selection-start-line="149" selection-start-column="166" selection-end-line="149" selection-end-column="166" />
           <folding />
         </state>
       </provider>
