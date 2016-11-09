@@ -88,15 +88,14 @@ class ContactsHelper:
         wd = self.app.wd
         wd.find_elements_by_name("selected[]").click()
 
-    def modify_first_group (self):
+    def modify_first_contact (self):
         wd = self.app.wd
         self.modify_contact_by_index (0)
 
     def modify_contact_by_index(self, index, contact):
         wd = self.app.wd
         self.app.open_home_page()
-        self.select_contact_by_index (index)
-        wd.find_element_by_xpath("//img[@title='Edit']").click()
+        wd.find_elements_by_xpath("//img[@title='Edit']")[index].click()
         self.fill_form(contact)
         wd.find_element_by_xpath("//input[@value='Update']").click()
         self.app.return_to_home_page()

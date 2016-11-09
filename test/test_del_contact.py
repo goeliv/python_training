@@ -7,7 +7,7 @@ def test_delete_some_contact(app):
                                 work_tel="999", fax="777", email="2532@AMAI.COM", email2="2515832@AMAI.COM", homepage="ppp.com", birthday="1989"))
     old_contacts = app.contacts.get_contact_list()
     index = randrange(len(old_contacts))
-    app.contacts.delete_first_contact(index)
+    app.contacts.delete_contact_by_index(index)
     new_contacts = app.contacts.get_contact_list()
     assert len(old_contacts) - 1 == len(new_contacts)
     old_contacts[index:index+1] = []
