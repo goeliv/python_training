@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6814e93-d874-4fea-a5f8-0f9d42c6d162" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contacts.py" afterPath="$PROJECT_DIR$/fixture/contacts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/contact.py" afterPath="$PROJECT_DIR$/model/contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Test_phones.py" afterPath="$PROJECT_DIR$/test/Test_phones.py" />
     </list>
     <ignored path="python_training.iws" />
@@ -79,8 +78,8 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+            <state relative-caret-position="412">
+              <caret line="160" column="106" selection-start-line="160" selection-start-column="106" selection-end-line="160" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -99,12 +98,9 @@
       <file leaf-file-name="Test_phones.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Test_phones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="171" selection-start-line="21" selection-start-column="171" selection-end-line="21" selection-end-column="171" />
-              <folding>
-                <marker date="1478879743485" expanded="true" signature="45:304" ph="..." />
-                <marker date="1478879743485" expanded="true" signature="898:1115" ph="..." />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -560,12 +556,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 17h 30m 58s.xml">
-      <configuration name="py.test in Test_phones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 17h 37m 25s.xml">
-      <configuration name="py.test in Test_phones.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 17h 51m 30s.xml">
       <configuration name="py.test in Test_phones.py" configurationId="tests" />
     </history-entry>
@@ -590,6 +580,12 @@
     <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 18h 14m 47s.xml">
       <configuration name="py.test in Test_phones.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 18h 20m 36s.xml">
+      <configuration name="py.test in Test_phones.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Test_phones_py - 2016.11.11 at 18h 22m 50s.xml">
+      <configuration name="py.test in Test_phones.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,15 +597,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1922" y="0" width="1918" height="1078" extended-state="1" />
-    <editor active="false" />
+    <frame x="1922" y="0" width="1918" height="1078" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21489362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4090909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4090909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -889,19 +885,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Test_phones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="171" selection-start-line="21" selection-start-column="171" selection-end-line="21" selection-end-column="171" />
-          <folding>
-            <marker date="1478879743485" expanded="true" signature="45:304" ph="..." />
-            <marker date="1478879743485" expanded="true" signature="898:1115" ph="..." />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+        <state relative-caret-position="412">
+          <caret line="160" column="106" selection-start-line="160" selection-start-column="106" selection-end-line="160" selection-end-column="106" />
           <folding />
         </state>
       </provider>
