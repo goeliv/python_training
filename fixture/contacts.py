@@ -1,6 +1,6 @@
 
 from model.contact import Contact
-
+import re
 
 class ContactsHelper:
 
@@ -148,6 +148,17 @@ class ContactsHelper:
         mob_tel = wd.find_element_by_name("mobile").get_attribute("value")
         secondary_tel = wd.find_element_by_name("phone2").get_attribute("value")
         return Contact(firstname=firstname, lastname=lastname, id=id, home_tel=home_tel, work_tel=work_tel, mob_tel=mob_tel, secondary_tel=secondary_tel)
+
+    def get_contact_from_view_page(self, index):
+        wd = self.app.wd
+        self.open_contact_view_by_index(index)
+        text = wd.find_element_by_id("content").text
+        home_tel = re.search("H:(.*)", text).group(1)
+        work_tel = re.search("W:(.*)", text).group(1)
+        mob_tel = re.search("M:(.*)", text).group(1)
+        secondary_tel = re.search("P:(.*)", text).group(1)
+        return Contact(home_tel=home_tel, work_tel=work_tel, mob_tel=mob_tel, secondary_tel=secondary_tel)
+
 
 
 
