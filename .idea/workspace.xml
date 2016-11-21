@@ -20,14 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
+      <file leaf-file-name="test_add_contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="116" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="116" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="14" column="94" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="94" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,8 +65,8 @@
       <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="75" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -76,10 +74,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/test.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-736">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/contacts.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -99,8 +119,8 @@
       <file leaf-file-name="add_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -150,6 +170,7 @@
         <option value="$PROJECT_DIR$/test/test_modify_contact.py" />
         <option value="$PROJECT_DIR$/fixture/contacts.py" />
         <option value="$PROJECT_DIR$/generator/group.py" />
+        <option value="$PROJECT_DIR$/generator/contact.py" />
       </list>
     </option>
   </component>
@@ -293,7 +314,7 @@
       <recent name="D:\python\dev\python_training\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.group">
+  <component name="RunManager" selected="Python.contact">
     <configuration default="false" name="group" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,30 +353,6 @@
       <option name="keywords" value="" />
       <option name="params" value="--browser=firefox" />
       <option name="USE_PARAM" value="true" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_add_group.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_training" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_add_group.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
@@ -405,6 +402,23 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_training" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator/contact.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -544,17 +558,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.group" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Test_phones.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in Test_phones.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.contact" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.group" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Test_phones.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.contact" />
+        <item index="1" class="java.lang.String" itemvalue="Python.group" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in Test_phones.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
       </list>
     </recent_temporary>
   </component>
@@ -653,20 +667,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -786,6 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -856,26 +849,6 @@
           <caret line="118" column="41" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="41" />
           <folding>
             <element signature="e#1#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -906,6 +879,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/groups.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-226">
@@ -916,19 +897,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generator/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="75" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test.json">
+    <entry file="file://$PROJECT_DIR$/data/add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="94" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/contacts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
