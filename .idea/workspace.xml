@@ -20,65 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_del_group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_del_group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_del_contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="123" selection-start-line="16" selection-start-column="123" selection-end-line="16" selection-end-column="123" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_modify_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="-102">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_email.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_email.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="187">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,17 +77,55 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="246">
+              <caret line="137" column="111" selection-start-line="137" selection-start-column="111" selection-end-line="137" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_lastname.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_lastname.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="77" />
               <folding>
-                <marker date="1480105444194" expanded="true" signature="67:7458" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="96:119" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="151:503" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="538:3118" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="3155:3220" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="3268:3535" ph="..." />
-                <marker date="1480105444194" expanded="true" signature="4104:4112" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_firstname.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_firstname.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_address.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_address.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_phones.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Test_phones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,13 +171,16 @@
         <option value="$PROJECT_DIR$/test/test_del_group.py" />
         <option value="$PROJECT_DIR$/test/test_db_matches_ui.py" />
         <option value="$PROJECT_DIR$/fixture/db.py" />
-        <option value="$PROJECT_DIR$/fixture/contacts.py" />
         <option value="$PROJECT_DIR$/test/test_del_contact.py" />
         <option value="$PROJECT_DIR$/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/test/test_add_contact.py" />
         <option value="$PROJECT_DIR$/test/test_modify_group.py" />
         <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/test/test_modify_contact.py" />
+        <option value="$PROJECT_DIR$/fixture/contacts.py" />
+        <option value="$PROJECT_DIR$/test/test_lastname.py" />
+        <option value="$PROJECT_DIR$/test/test_firstname.py" />
+        <option value="$PROJECT_DIR$/test/test_address.py" />
       </list>
     </option>
   </component>
@@ -653,10 +652,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -693,21 +692,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_group.py" />
-    <entry file="file://$PROJECT_DIR$/model/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_group.py" />
     <entry file="file://$PROJECT_DIR$/test_add_group.py" />
     <entry file="file://$PROJECT_DIR$/test_add_group.py" />
@@ -747,13 +731,6 @@
         <state relative-caret-position="2176">
           <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Test_phones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -858,22 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <marker date="1480105444194" expanded="true" signature="67:7458" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="96:119" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="151:503" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="538:3118" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="3155:3220" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="3268:3535" ph="..." />
-            <marker date="1480105444194" expanded="true" signature="4104:4112" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -908,16 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -928,17 +879,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="-102">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="137" column="111" selection-start-line="137" selection-start-column="111" selection-end-line="137" selection-end-column="111" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_lastname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test_phones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_firstname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
