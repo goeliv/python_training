@@ -10,7 +10,7 @@ def test_emails_on_home_page(app):
 
 
 def clear(s):
-    re.sub("[() -]", "", s)
+    return re.sub("[() -]", "", s)
 
 def merge_emails_like_on_home_page(contact):
     return "\n".join(filter(lambda x: x!="",
